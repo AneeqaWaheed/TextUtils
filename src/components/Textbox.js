@@ -6,7 +6,7 @@ export default function TextArea(props) {
         let newText= text.toUpperCase();
         setText(newText);
     }
-    const handleLoClick=()=>{
+    const handleLoClick=()=>{ 
         // console.log("Converted to Uppercase "+text );
         let newText= text.toLowerCase();
         setText(newText);
